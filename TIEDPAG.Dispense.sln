@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TIEDPAG.Dispense.Api", "TIEDPAG.Dispense.Api\TIEDPAG.Dispense.Api.csproj", "{6B7405A5-57E4-4D85-862B-04A8A726F19C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TIEDPAG.Dispense.Api", "TIEDPAG.Dispense.Api\TIEDPAG.Dispense.Api.csproj", "{6B7405A5-57E4-4D85-862B-04A8A726F19C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TIEDPAG.Dispense.DAL", "TIEDPAG.Dispense.DAL\TIEDPAG.Dispense.DAL.csproj", "{F2347D09-DE16-42D3-8222-F61DE1CDCE22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TIEDPAG.Dispense.DAL", "TIEDPAG.Dispense.DAL\TIEDPAG.Dispense.DAL.csproj", "{F2347D09-DE16-42D3-8222-F61DE1CDCE22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TIEDPAG.Dispense.Biz", "TIEDPAG.Dispense.Biz\TIEDPAG.Dispense.Biz.csproj", "{C65F64C4-2D47-4184-8C4B-5F4CE1523A39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{F2347D09-DE16-42D3-8222-F61DE1CDCE22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2347D09-DE16-42D3-8222-F61DE1CDCE22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2347D09-DE16-42D3-8222-F61DE1CDCE22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C65F64C4-2D47-4184-8C4B-5F4CE1523A39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C65F64C4-2D47-4184-8C4B-5F4CE1523A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C65F64C4-2D47-4184-8C4B-5F4CE1523A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C65F64C4-2D47-4184-8C4B-5F4CE1523A39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

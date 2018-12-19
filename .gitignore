@@ -3,3 +3,9 @@
 ################################################################################
 
 /.vs
+/TIEDPAG.Dispense.Api/bin/
+/TIEDPAG.Dispense.Api/obj
+/TIEDPAG.Dispense.Biz/bin
+/TIEDPAG.Dispense.Biz/obj
+/TIEDPAG.Dispense.DAL/bin
+/TIEDPAG.Dispense.DAL/obj
