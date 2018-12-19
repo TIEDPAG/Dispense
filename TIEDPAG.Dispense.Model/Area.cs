@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace TIEDPAG.Dispense.DAL
+namespace TIEDPAG.Dispense.Model
 {
     public partial class Area
     {

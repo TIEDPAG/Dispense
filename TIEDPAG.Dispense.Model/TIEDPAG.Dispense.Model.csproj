@@ -5,11 +5,7 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>E:\Works\NetWorks\Dispense\TIEDPAG.Dispense.Biz\TIEDPAG.Dispense.Biz.xml</DocumentationFile>
+    <DocumentationFile>E:\Works\NetWorks\Dispense\TIEDPAG.Dispense.Model\TIEDPAG.Dispense.Model.xml</DocumentationFile>
   </PropertyGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\TIEDPAG.Dispense.DAL\TIEDPAG.Dispense.DAL.csproj" />
-  </ItemGroup>
 
 </Project>

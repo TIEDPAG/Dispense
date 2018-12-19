@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using TIEDPAG.Dispense.Model;
 
 namespace TIEDPAG.Dispense.DAL
 {
@@ -22,7 +23,7 @@ namespace TIEDPAG.Dispense.DAL
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseMySQL("Server=182.61.40.185;User Id=tiedpag;Password=Mysql@123;Database=tiedpag_dispense");
+                optionsBuilder.UseMySQL("Server=182.61.40.185;User Id=tiedpag;Password=Mysql@12;Database=tiedpag_dispense");
             }
         }
 
