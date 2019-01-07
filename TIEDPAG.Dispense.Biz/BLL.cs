@@ -1,17 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using TIEDPAG.Dispense.DAL;
+using TIEDPAG.Dispense.IBiz;
+using TIEDPAG.Dispense.IDAL;
 using TIEDPAG.Dispense.Model;
 
 namespace TIEDPAG.Dispense.Biz
 {
-    public class BLL
+    public class BLL : IBaseBLL, IBLL
     {
-        private BaseDAL<Area> _Dal = new BaseDAL<Area>();
+        private IAreaDAL _Dal { get; set; }
+
+        public BLL(IAreaDAL _dal)
+        {
+            _Dal = _dal;
+        }
 
 
-        public void Add()
+        public bool Add()
         {
             _Dal.Add(new Area
             {
@@ -19,7 +25,7 @@ namespace TIEDPAG.Dispense.Biz
                 Createby = -1,
                 CreateTime = DateTime.Now,
             });
-            _Dal.SaveChange();
+            return _Dal.SaveChange();
         }
     }
 }

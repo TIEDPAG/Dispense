@@ -9,6 +9,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="DIRegister.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.8.1" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.3.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.2.0" />
     <PackageReference Include="microsoft.entityframeworkcore.tools" Version="2.2.0">
@@ -19,6 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\TIEDPAG.Dispense.IDAL\TIEDPAG.Dispense.IDAL.csproj" />
     <ProjectReference Include="..\TIEDPAG.Dispense.Model\TIEDPAG.Dispense.Model.csproj" />
   </ItemGroup>
 

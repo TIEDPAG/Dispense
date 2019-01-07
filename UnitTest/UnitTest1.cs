@@ -9,7 +9,7 @@ namespace UnitTest
         [TestMethod]
         public void TestMethod1()
         {
-            new BLL().Add();
+            //Assert.IsTrue(new BLL().Add());
         }
     }
 }

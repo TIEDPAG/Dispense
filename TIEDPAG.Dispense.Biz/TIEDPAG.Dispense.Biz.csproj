@@ -5,11 +5,22 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>E:\Works\NetWorks\Dispense\TIEDPAG.Dispense.Biz\TIEDPAG.Dispense.Biz.xml</DocumentationFile>
+    <DocumentationFile>F:\Works\Dispense\TIEDPAG.Dispense.Biz\TIEDPAG.Dispense.Biz.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TIEDPAG.Dispense.DAL\TIEDPAG.Dispense.DAL.csproj" />
+    <Compile Remove="DIRegister.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.8.1" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TIEDPAG.Dispense.IBiz\TIEDPAG.Dispense.IBiz.csproj" />
+    <ProjectReference Include="..\TIEDPAG.Dispense.IDAL\TIEDPAG.Dispense.IDAL.csproj" />
+    <ProjectReference Include="..\TIEDPAG.Dispense.Model\TIEDPAG.Dispense.Model.csproj" />
   </ItemGroup>
 
 </Project>

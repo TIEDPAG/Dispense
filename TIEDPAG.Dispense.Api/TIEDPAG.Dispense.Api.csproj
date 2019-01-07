@@ -13,11 +13,17 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.8.1" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.3.1" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.13" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\TIEDPAG.Dispense.Biz\TIEDPAG.Dispense.Biz.csproj" />
+    <ProjectReference Include="..\TIEDPAG.Dispense.DAL\TIEDPAG.Dispense.DAL.csproj" />
+    <ProjectReference Include="..\TIEDPAG.Dispense.IBiz\TIEDPAG.Dispense.IBiz.csproj" />
+    <ProjectReference Include="..\TIEDPAG.Dispense.Model\TIEDPAG.Dispense.Model.csproj" />
   </ItemGroup>
 
 </Project>

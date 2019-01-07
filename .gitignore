@@ -13,3 +13,10 @@
 /TIEDPAG.Dispense.Model/obj
 /UnitTest/bin
 /UnitTest/obj
+/TIEDPAG.Common/bin/Debug/netcoreapp2.2
+/TIEDPAG.Common/obj
+/TIEDPAG.Dispense/obj
+/TIEDPAG.Dispense.IBiz/bin/Debug/netcoreapp2.2
+/TIEDPAG.Dispense.IBiz/obj
+/TIEDPAG.Dispense.IDAL/bin/Debug/netcoreapp2.2
+/TIEDPAG.Dispense.IDAL/obj

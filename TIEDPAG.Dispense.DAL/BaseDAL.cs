@@ -4,16 +4,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
+using TIEDPAG.Dispense.IDAL;
 
 namespace TIEDPAG.Dispense.DAL
 {
-    public class BaseDAL<T> where T : class
+    public class BaseDAL<T> : IBaseDAL<T> where T : class
     {
         private tiedpag_dispenseContext dbContext { get; set; }
 
-        public BaseDAL()
+        public BaseDAL(tiedpag_dispenseContext _context)
         {
-            dbContext = new tiedpag_dispenseContext();
+            dbContext = _context;
         }
 
         public T Find<Tkey>(Tkey key)

@@ -1,0 +1,10 @@
+{
+  "modules": [
+    {
+      "type": "TIEDPAG.Dispnese.DAL.DIRegister, TIEDPAG.Dispnese.DAL"
+    },
+    {
+      "type": "TIEDPAG.Dispnese.BLL.DIRegister, TIEDPAG.Dispnese.BLL"
+    }
+  ]
+}

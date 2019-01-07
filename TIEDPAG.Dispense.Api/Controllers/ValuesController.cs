@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using TIEDPAG.Dispense.IBiz;
 
 namespace TIEDPAG.Dispense.Api.Controllers
 {
@@ -10,10 +11,17 @@ namespace TIEDPAG.Dispense.Api.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        private IBLL _bll { get; set; }
+        public ValuesController (IBLL bLL)
+        {
+            _bll = bLL;
+        }
+
         // GET api/values
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
+            _bll.Add();
             return new string[] { "value1", "value2" };
         }
 
